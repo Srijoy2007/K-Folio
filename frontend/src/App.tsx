@@ -1,15 +1,13 @@
-function App() {
+import React from "react";
+import SignUpcard from "./components/Signup_card"; // adjust path if your file is elsewhere
+import "./App.css";
 
+function App() {
   return (
-    <>
-      <h1 className="text-4xl font-bold">K-Folio</h1>
-      <div className="card">
-      </div>
-      <p className="read-the-docs">
-        Social media platform for kiit.
-      </p>
-    </>
-  )
+    <div>
+      <SignUpcard />
+    </div>
+  );
 }
 
-export default App
+export default App;
